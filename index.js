@@ -4,7 +4,7 @@ function start() {
     const content = {}
     content.searchTerm = askAndReturnSearchTerm() 
     content.prefix = askAndReturnPrefix()
-    content.teste= 'valor da teste'
+  
    function askAndReturnSearchTerm() { 
         return  readline.question('Type a Wikipedia search term: ')
     }
